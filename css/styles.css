@@ -1,3 +1,52 @@
+
+.main-container{
+  position: relative;
+}
+
+.hero{
+  width:100vh;
+  height:100vh;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.8)
+  ),
+  url("../img/hero-steak.jpg");
+  filter:blur(4px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-nav{
+  position: absolute;
+  bottom:30vh;
+}
+.home-nav a{
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.nav-button{
+  width:175px;
+  background-color:black;
+  float:left;
+margin:5% 0;
+}
+
+.logo{
+  width:100%;
+  padding:0 20%;
+}
+
+.float-left{
+  float:left;
+}
+
+.float-right{
+  float: right;
+}
+
 /* Universal Styles */
 .body {
   overflow: hidden;
@@ -32,3 +81,4 @@
   }
 
 /*End of contact page styles*/
+
