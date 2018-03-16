@@ -1,3 +1,4 @@
+
 .main-container{
   position: relative;
 }
@@ -45,3 +46,39 @@ margin:5% 0;
 .float-right{
   float: right;
 }
+
+/* Universal Styles */
+.body {
+  overflow: hidden;
+}
+
+.header {
+  height: 25vh;
+  width: 100%;
+  background-image: url("../img/purple-gears.jpg");
+}
+
+.navbar {
+  height: 10vh;
+}
+
+/*Contact page*/
+
+ /* Gmap */
+#map {
+    width: 100%;
+    height: 50vh;
+    background-color: grey;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  /* Contact info section */
+  .contact-info {
+    height: 15vh;
+    width: 100%;
+    background-color: blanchedalmond;
+  }
+
+/*End of contact page styles*/
+
