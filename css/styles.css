@@ -1,3 +1,7 @@
+.main-container{
+  position: relative;
+}
+
 .hero{
   width:100vh;
   height:100vh;
@@ -6,19 +10,16 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.8)
   ),
-  url(https://i2.wp.com/majestueus.be/wp-content/uploads/2018/02/pexels-photo-769289.jpeg?fit=2048%2C1365&ssl=1);
-  /*filter:blur(3px);*/
+  url("../img/hero-steak.jpg");
+  filter:blur(4px);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  position: relative;
 }
 
 .home-nav{
   position: absolute;
-  left:40vw;
-  right:40vw;
-  top:50vh;
+  bottom:30vh;
 }
 .home-nav a{
   font-size: 15px;
@@ -28,5 +29,19 @@
 .nav-button{
   width:175px;
   background-color:black;
+  float:left;
+margin:5% 0;
+}
 
+.logo{
+  width:100%;
+  padding:0 20%;
+}
+
+.float-left{
+  float:left;
+}
+
+.float-right{
+  float: right;
 }
