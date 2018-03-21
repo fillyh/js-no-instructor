@@ -1,6 +1,9 @@
 
 .main-container{
   position: relative;
+  height:100%;
+  width:100%;
+  overflow: hidden;
 }
 
 .hero{
@@ -12,7 +15,7 @@
     rgba(0, 0, 0, 0.8)
   ),
   url("../img/hero-steak.jpg");
-  filter:blur(4px);
+  /* filter:blur(4px); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -20,31 +23,39 @@
 
 .home-nav{
   position: absolute;
-  bottom:30vh;
+  bottom:31%;
 }
 .home-nav a{
-  font-size: 15px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  color:white !important;
   text-transform: uppercase;
 }
 
-.nav-button{
-  width:175px;
-  background-color:black;
-  float:left;
-margin:5% 0;
+.nav-button:hover{
+  background-color: #9e050d;
+  color:white;
+  border: 1px solid #9e050d !important;
 }
+
+.nav-button{
+  width:200px;
+  background-color:none;
+  margin-top:5%;
+  border: 1px solid white !important;
+}
+
+
+
+.my-buttons{
+  display: flex;
+  justify-content: center;
+}
+
 
 .logo{
   width:100%;
-  padding:0 20%;
-}
-
-.float-left{
-  float:left;
-}
-
-.float-right{
-  float: right;
+  padding:5% 10% 2% 10%;
 }
 
 /* Universal Styles */
@@ -81,4 +92,3 @@ margin:5% 0;
   }
 
 /*End of contact page styles*/
-
