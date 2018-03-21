@@ -1,4 +1,6 @@
-
+.body{
+  overflow: hidden;
+}
 .main-container{
   position: relative;
   height:100%;
