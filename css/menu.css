@@ -1,0 +1,120 @@
+.contentn-section{
+  min-height:60vh;
+}
+
+.headers{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 80px !important;
+  margin: 1% 0 !important;
+  color:white !important;
+  text-align: center;
+}
+
+.menu-tabs{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:25px;
+}
+
+.menu-tabs a{
+  padding: 4px 15px;
+}
+
+.menu-button{
+  color:white;
+  margin:5px 0 0 10px;
+  border:solid 1px white;
+}
+
+.menu-button:hover{
+  background-color: var(--main-red);
+  color:white;
+  border:solid 1px var(--main-red);
+  text-decoration: none;
+}
+
+.temp-active{
+  background-color: var(--main-red);
+  border:solid 1px var(--main-red);
+}
+
+.menu-button:visited{
+  text-decoration: none;
+}
+
+
+.jumbotron{
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.8)
+  ),
+  url("../img/hero-steak.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position:0% 10%;
+}
+
+.no-padding{
+  padding:0 !important;
+}
+.menu-list{
+color: var(--main-red);
+background-color:white;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border:solid 1px black;
+text-align: center;
+font-size: 22px;
+transition: 0.4s;
+overflow: hidden;
+}
+
+/* .margin-top{
+  margin-top: -10px;
+} */
+
+.item-description{
+  background-color:#dfe4ea;
+  padding: 10px;
+}
+
+.menu-list:after {
+content: '\002B';
+color: var(--main-red);
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2212";
+}
+
+.items{
+  padding-left:10px;
+}
+.menu-items{
+border:solid 1px black;
+border-top: none;
+border-bottom: none;
+display: none;
+background-color: white;
+overflow: hidden;
+}
+
+.border-bottom{
+  border-bottom: solid 1px black;
+}
+
+
+.footer{
+  height:80px;
+  background-color: black;
+  margin-top: 30px;
+}
