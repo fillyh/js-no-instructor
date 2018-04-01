@@ -33,7 +33,7 @@ font-family: 'Lato', sans-serif;
 
 .home-nav{
   position: absolute;
-  bottom:29%;
+  top: 12vh;
 }
 .home-nav a{
   font-size: 15px;
@@ -42,6 +42,7 @@ font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   letter-spacing: .4pt;
 }
+
 
 .nav-button:hover{
   background-color: var(--main-red);

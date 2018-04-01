@@ -1,3 +1,11 @@
+.icon-bar{
+  background-color: white;
+}
+
+.navbar-logo{
+  width:20%
+}
+
 .contentn-section{
   min-height:60vh;
 }
@@ -71,17 +79,20 @@ width: 100%;
 border:solid 1px black;
 text-align: center;
 font-size: 22px;
-transition: 0.4s;
+transition: 0.1s;
 overflow: hidden;
 }
 
-/* .margin-top{
-  margin-top: -10px;
+/* .menu-list:hover{
+  color:white;
+  background-color: var(--main-red);
 } */
 
-.item-description{
+
+.category-info{
   background-color:#dfe4ea;
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .menu-list:after {
@@ -97,7 +108,7 @@ content: "\2212";
 }
 
 .items{
-  padding-left:10px;
+  padding:0 10px;
 }
 .menu-items{
 border:solid 1px black;
@@ -108,13 +119,80 @@ background-color: white;
 overflow: hidden;
 }
 
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float:left;
+}
+
+.food-item{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+.item-container:after {
+  content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.item-description:before {
+  content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+
+
 .border-bottom{
   border-bottom: solid 1px black;
 }
 
 
 .footer{
-  height:80px;
   background-color: black;
-  margin-top: 30px;
+  padding:15px;
+
+}
+
+.logo-white{
+height:70px;
+}
+
+.copyright{
+padding-top: 30px;
+color:white;
+}
+
+.social-media{
+padding-top: 20px;
+color:white;
+font-size: 25px;
+}
+
+.fa-facebook-square{
+  margin-right: 15px;
+}
+
+.social-links:link{
+  color: white;
+}
+
+.social-links:visited{
+  color: white;
+}
+
+.social-links:hover {
+  color:var(--main-red);
+}
+
+.social-links:active{
+  color: white;
 }
