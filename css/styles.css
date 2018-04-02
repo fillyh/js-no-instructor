@@ -82,17 +82,52 @@ font-family: 'Lato', sans-serif;
 }
 
 .navbar {
-  height: 10vh;
+  /* height: 10vh; */
   background: var(--main-red);
   margin-bottom: 0;
+}
+
+.no-radius{
+  border-radius:0 !important;
 }
 
 .main-nav{
   margin-bottom: 0 !important;
 }
 
+.main-nav a{
+  color:white;
+  font-family: 'Lato', sans-serif;
+}
+.my-nav{
+  text-transform:uppercase;
+  letter-spacing: .8px;
+}
 
+.my-nav a{
+background-color: transparent !important;
+}
 
+.my-nav a:link{
+  color: white;
+}
+
+.my-nav a:visited{
+  color: white;
+}
+
+.nav-logo{
+  height:40px;
+  padding-bottom: 8px;
+}
+
+.active-link{
+  border-bottom: 5px solid white;
+}
+
+.not-active:hover{
+    border-bottom: 5px solid white !important;
+}
 
 
 /*Contact page*/
