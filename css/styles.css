@@ -3,14 +3,12 @@
 }
 
 
-.body{
-  overflow: hidden;
-}
+
 .main-container{
   position: relative;
   height:100%;
   width:100%;
-  overflow: hidden;
+  
 }
 p{
 font-family: 'Lato', sans-serif;
@@ -71,15 +69,9 @@ font-family: 'Lato', sans-serif;
 }
 
 /* Universal Styles */
-.body {
-  overflow: hidden;
-}
 
-.header {
-  height: 25vh;
-  width: 100%;
-  background-image: url("../img/purple-gears.jpg");
-}
+
+
 
 .navbar {
   /* height: 10vh; */
@@ -132,6 +124,11 @@ background-color: transparent !important;
 
 /*Contact page*/
 
+.thing {
+  font-weight: 400;
+  font-family: 'Lato';
+}
+
  /* Gmap */
 #map {
     width: 100%;
@@ -149,3 +146,15 @@ background-color: transparent !important;
   }
 
 /*End of contact page styles*/
+
+
+.jumbotron {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 80px !important;
+  margin: 1% 0 !important;
+  color:white !important;
+  text-align: center;
+}
