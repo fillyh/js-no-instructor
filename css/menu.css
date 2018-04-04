@@ -7,7 +7,7 @@
 }
 
 .contentn-section{
-  min-height:55vh;
+  min-height:60vh;
 }
 
 .headers{
@@ -88,6 +88,9 @@ overflow: hidden;
   background-color: var(--main-red);
 } */
 
+.padding-top{
+  padding-top: 10px;
+}
 
 .category-info{
   background-color:#dfe4ea;
@@ -132,6 +135,7 @@ overflow: hidden;
   font-weight: 700;
   font-size: 15px;
   margin-bottom: 2px;
+  text-transform: capitalize;
 }
 .item-container:after {
   content: ".";
@@ -148,7 +152,6 @@ overflow: hidden;
     height: 0;
     clear: both;
 }
-
 
 
 .border-bottom{
