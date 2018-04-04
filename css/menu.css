@@ -63,6 +63,7 @@
   background-repeat: no-repeat;
   background-size:100%;
   background-position:0% 10%;
+  height: 400px;
 }
 
 .no-padding{
@@ -199,4 +200,10 @@ font-size: 25px;
 
 .social-links:active{
   color: white;
+}
+
+
+#bootstrap-overrides jumbotron{
+  line-height: 1;
+  margin-bottom: 0px;
 }
