@@ -53,7 +53,7 @@
 }
 
 
-.jumbotron{
+.menu-jumbotron{
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.5),
@@ -61,9 +61,8 @@
   ),
   url("../img/hero-steak.jpg");
   background-repeat: no-repeat;
-  background-size:100%;
+  background-size:cover;
   background-position:0% 10%;
-  height: 400px;
 }
 
 .no-padding{
@@ -84,10 +83,6 @@ transition: 0.1s;
 overflow: hidden;
 }
 
-/* .menu-list:hover{
-  color:white;
-  background-color: var(--main-red);
-} */
 
 .padding-top{
   padding-top: 10px;

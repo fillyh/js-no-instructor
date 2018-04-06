@@ -8,10 +8,13 @@
   position: relative;
   height:100%;
   width:100%;
-  
+
 }
-p{
+
+.contact-jumbotron p{
 font-family: 'Lato', sans-serif;
+font-weight: 400 !important;
+letter-spacing:1px;
 }
 
 .hero{
@@ -124,37 +127,49 @@ background-color: transparent !important;
 
 /*Contact page*/
 
-.thing {
-  font-weight: 400;
+/* .thing {
   font-family: 'Lato';
-}
+  font-weight: 400;
+  font-size: 10px;
+} */
 
  /* Gmap */
 #map {
     width: 100%;
-    height: 50vh;
+    height: 80vh;
     background-color: grey;
     text-align: center;
-    padding-top: 200px;
   }
 
-  /* Contact info section */
-  .contact-info {
-    height: 15vh;
-    width: 100%;
-    background-color: blanchedalmond;
-  }
 
 /*End of contact page styles*/
 
 
-.jumbotron {
+.contact-jumbotron {
   margin-bottom: 0 !important;
   margin-top: 0 !important;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 80px !important;
-  margin: 1% 0 !important;
+  /* margin: 1% 0 !important; */
   color:white !important;
   text-align: center;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.8)
+  ),
+  url("../img/hero-steak.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:0% 10%;
+}
+
+.contact-headers{
+  font-size:60px;
+}
+
+.contact-footer{
+  background-color: black;
+  padding:10px;
 }
