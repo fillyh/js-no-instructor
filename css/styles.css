@@ -12,9 +12,12 @@
 }
 
 .contact-jumbotron p{
-font-family: 'Lato', sans-serif;
-font-weight: 400 !important;
-letter-spacing:1px;
+letter-spacing:1.2px;
+/* line-height: 30px; */
+}
+
+.thing{
+  line-height: 40px;
 }
 
 .hero{
@@ -26,7 +29,6 @@ letter-spacing:1px;
     rgba(0, 0, 0, 0.8)
   ),
   url("../img/hero-steak.jpg");
-  /* filter:blur(4px); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -77,7 +79,6 @@ letter-spacing:1px;
 
 
 .navbar {
-  /* height: 10vh; */
   background: var(--main-red);
   margin-bottom: 0;
 }
@@ -127,12 +128,6 @@ background-color: transparent !important;
 
 /*Contact page*/
 
-/* .thing {
-  font-family: 'Lato';
-  font-weight: 400;
-  font-size: 10px;
-} */
-
  /* Gmap */
 #map {
     width: 100%;
@@ -142,22 +137,18 @@ background-color: transparent !important;
   }
 
 
-/*End of contact page styles*/
+
 
 
 .contact-jumbotron {
   margin-bottom: 0 !important;
   margin-top: 0 !important;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-size: 80px !important;
-  /* margin: 1% 0 !important; */
   color:white !important;
   text-align: center;
   background:
   linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.8)
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.9)
   ),
   url("../img/hero-steak.jpg");
   background-repeat: no-repeat;
@@ -165,8 +156,10 @@ background-color: transparent !important;
   background-position:0% 10%;
 }
 
+
 .contact-headers{
-  font-size:60px;
+  font-size:45px;
+  font-family: 'Playfair Display', serif;
 }
 
 .contact-footer{
