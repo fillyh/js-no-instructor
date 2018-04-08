@@ -2,7 +2,14 @@
     --main-red:#9e050d;
 }
 
+body{
+  margin: 0;
+}
 
+
+.footnote{
+  color:#7f8c8d;
+}
 
 .main-container{
   position: relative;
@@ -14,12 +21,8 @@
 
 .contact-jumbotron p{
 letter-spacing:1.2px;
-/* line-height: 30px; */
 }
 
-.thing{
-  line-height: 40px;
-}
 
 .hero{
   width:100vh;
@@ -128,18 +131,31 @@ background-color: transparent !important;
 }
 
 
+
+
 /*Contact page*/
 
  /* Gmap */
+
+
+
 #map {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
+    min-height: 900px;
     background-color: grey;
     text-align: center;
   }
 
 
+  .contact-info p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+  }
 
+  .contact-info{
+      padding: 0 20px 20px 20px;
+  }
 
 
 .contact-jumbotron {
@@ -158,20 +174,44 @@ background-color: transparent !important;
   background-position:0% 10%;
 }
 
+.location-header{
+  padding-bottom: 30px;
+}
+
+
 
 .contact-headers{
-  font-size:45px;
+  color:var(--main-red);
+  font-size:40px;
   font-family: 'Playfair Display', serif;
 }
 
-.contact-footer{
-  background-color: black;
-  padding:10px;
+.contact-subhead{
+  color:var(--main-red);
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
 }
 
 .footer-contact{
   background-color: black;
   padding:10px;
   margin-top: 0px;
+}
+
+
+@media (max-width:767px){
+  .not-active:hover {
+    border-bottom: none !important;
+  }
+
+  .active-link{
+  border: none;
+  }
+
+  #map{
+    min-height: 300px !important;
+  }
+
+
 
 }
