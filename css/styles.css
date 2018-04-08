@@ -118,8 +118,8 @@ background-color: transparent !important;
 }
 
 .nav-logo{
-  height:40px;
-  padding-bottom: 8px;
+  height:50px;
+  padding:5px 0px 5px 8px;
 }
 
 .active-link{
