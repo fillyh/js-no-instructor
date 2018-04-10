@@ -60,6 +60,7 @@ letter-spacing:1.2px;
 .nav-button{
   width:200px;
   background-color:none;
+  margin: 5px;
   border: 1px solid white !important;
 }
 
